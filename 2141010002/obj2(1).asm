@@ -1,0 +1,9 @@
+; Anurag Jain
+; 2141010002    
+     
+MOV AX,1000H
+MOV DS,AX
+MOV AX,[03400H]
+SUB AX,[03300H] 
+MOV [04500H],AX
+HLT
